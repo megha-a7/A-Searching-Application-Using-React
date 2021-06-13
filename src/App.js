@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Container, Jumbotron } from 'react-boostrap';
 import SearchForm from './components/SearchForm';
+import Results from './components/Results';
 
 class App extends Component() {
   render(){
@@ -16,6 +17,7 @@ class App extends Component() {
             <SeacrhForm />
           </Container>  
         </Jumbotron>
+        <Results />
       </div>
     );
 
