@@ -14,7 +14,7 @@ class App extends Component() {
             <h1>Search App</h1>
             <p>This is a simple search app.</p>
             
-            <SeacrhForm />
+            <SearchForm />
           </Container>  
         </Jumbotron>
         <Results />
