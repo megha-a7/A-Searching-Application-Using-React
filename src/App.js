@@ -13,8 +13,8 @@ class App extends Component  {
         <Jumbotron>
         
           <Container>
-            <h1>Search App</h1>
-            <p>This is a simple search app.</p>
+            <h1>A Searching Application</h1>
+            <p>This is a outlook of a simple search application.</p>
             
             <SearchForm />
           </Container>  
