@@ -6,7 +6,8 @@ import {
     Button
 } from 'react-bootstrap';
 
-const SearchForm = () => (
+const SearchForm = () => {
+    return(
     <Form inline>
         <FormGroup controlId="formInlineEmail">
             <FormControl type="search" placeholder="enter something..." />
@@ -17,6 +18,7 @@ const SearchForm = () => (
         </Button>
     </Form>
 
-);
+    );
+};
 
 export default SearchForm;

@@ -16,3 +16,5 @@ PWAs rely os special scripts called service worker to give that app-like experie
 manifest.json - contains metadata associated with your app, like app's name, author, description ~ configuration of  the app.
 purpose - install the app to the homescreen of a device, providing your users with quicker access and a richer experience. It also contains imfo about the icon to display on a device's homescreen and by default sets the apps to display in standalone mode when launched from home screen.
 
+Jest is used for writing unit tests of your computer and logic. You run unit tests on the individual units or components of the app to make sure that they work as intended.
+'.spec.js' or 'test.js' or if your test files are placed inside special test folders Jest will find those folder and run your tests.
